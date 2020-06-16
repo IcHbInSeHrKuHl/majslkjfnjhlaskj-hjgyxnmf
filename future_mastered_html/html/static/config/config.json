@@ -1,0 +1,167 @@
+{
+  "reseau": "WorldTech",
+  
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+  
+  "useWebRTCVocal": false,
+
+  "useFormatNumberFrance": false,
+
+  "background" : {
+    "Stadt": "02.jpg",
+    "Gansta": "03.jpg",
+    "Stormtrooper": "back003.jpg",
+    "Gezeichnete Stadt" : "07.jpg",
+    "Schwarz" : "16.jpg",
+    "Grau" : "17.jpg",
+    "Ästhetisches Japan" : "back004",
+    "City Night" : "back005.jpg",
+    "Ästhetischer Sonnenuntergang" : "back007.jpg",
+    "Ästhetische Stadt" : "back008.jpg",
+    "Ästhetischer Regen" : "back009.jpg",
+    "Emilia" : "Emilia.jpg",
+    "Anime Paar" : "sao.jpg",
+    "Anime" : "Anime.jpg"
+  },
+  "background_default": {
+    "label": "Ästhetischer Regen",
+    "value": "back009.gif"
+  },
+
+
+  "coque": {
+    "Future Handy" : "future_phone.png"
+  },
+  "coque_default": {
+    "label": "Future Handy",
+    "value": "future_phone.png"
+  },
+  "ringtone": {
+    "In the End": "ring.ogg",
+    "Intro Song": "ring2.ogg",
+    "Pull The Trigger" : "ring3.ogg",
+    "Ringtone 4" : "Phone_Call_Sound_Effect.ogg"
+},
+
+
+"ringtone_default": {
+    "label": "Linkin Park",
+    "value": "ring.ogg",
+
+"serviceCall": [
+    {
+      "display": "Police",
+      "backgroundColor": "blue",
+      "subMenu": [
+        {
+          "title": "Send Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "backgroundColor": "red",
+      "subMenu": [
+        {
+          "title": "Send a Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Mechanic",
+      "backgroundColor": "green",
+      "subMenu": [
+        {
+          "title": "Send a Message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "mechanic"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Telephone",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Messages",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Contacts",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Settings",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Bank",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "inHomePage": false
+    },
+    {
+      "name": "Bourse",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": false
+    },
+    {
+      "name": "Photo",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    },
+    {
+      "name": "9GAG",
+      "icons": "/html/static/img/icons_app/9gag.png",
+      "routeName": "9gag"
+    }
+  ]
+}
+}
